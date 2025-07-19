@@ -39,6 +39,11 @@ const Cards = [
     description:"A simple Google Keep clone built with React and Firebase, allowing users to create, edit, and delete notes.",
     links: "Vue, Firebase",
   },
+   {
+    title: "Google Keep Clone",
+    description:"A simple Google Keep clone built with React and Firebase, allowing users to create, edit, and delete notes.",
+    links: "Vue, Firebase",
+  },
 ]
 const Cards2 = [
   {
