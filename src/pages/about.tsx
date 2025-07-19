@@ -8,13 +8,16 @@ function About() {
         <p className="border border-b border-[#112240] w-sm  mb-6"></p>
       </div>
 
-      <div className="font-body text-[#ccd6f6] space-y-5 leading-relaxed">
-        <p>
+      <div className="font-body text-[#ccd6f6] space-y-5">
+        <p className="md:text-xl text-lg">
           Hello! my name is
-          <span className="text-[#64ffda] font-semibold">Sanni Khadijah</span>,
+          
+        </p>
+        {/* <span className="text-[#64ffda] font-semibold md:text-2xl text-sm">Sanni Khadijah</span>,
+          <span className="md:text-xl text-base">
           I'M a front-end developer with a sharp eye for detail and a passion
           for building beautiful, accessible web experiences.
-        </p>
+          </span> */}
 
         <p>
           I enjoy turning complex problems into elegant solutions — balancing
