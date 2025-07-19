@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
           <div className="flex space-x-6 text-2xl text-[#ccd6f6]">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/khaddy06"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#64ffda] transition"
