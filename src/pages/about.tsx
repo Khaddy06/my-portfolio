@@ -13,11 +13,11 @@ function About() {
           Hello! my name is
           
         </p>
-        {/* <span className="text-[#64ffda] font-semibold md:text-2xl text-sm">Sanni Khadijah</span>,
+        <span className="text-[#64ffda] font-semibold md:text-2xl text-sm">Sanni Khadijah</span>,
           <span className="md:text-xl text-base">
           I'M a front-end developer with a sharp eye for detail and a passion
           for building beautiful, accessible web experiences.
-          </span> */}
+          </span>
 
         <p>
           I enjoy turning complex problems into elegant solutions — balancing
@@ -47,6 +47,7 @@ function About() {
             <li>TypeScript</li>
             <li>Figma to Code</li>
             <li>Responsive Design</li>
+            
           </ul>
         </div>
       </div>
