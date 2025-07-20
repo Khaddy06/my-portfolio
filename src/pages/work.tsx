@@ -133,10 +133,10 @@ function Work() {
                   />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-[#ccd6f6] hover:text-[#64ffda] mb-2">
+              <h3 className="md:text-xl text-base font-bold text-[#ccd6f6] hover:text-[#64ffda] mb-2">
                 {card.title}
               </h3>
-              <p className="text-[#8892b0] mb-4 font-semibold">
+              <p className="text-[#8892b0] text-base  mb-4 font-semibold">
                 {card.description}
               </p>
             </div>
