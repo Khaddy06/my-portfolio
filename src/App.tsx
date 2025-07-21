@@ -36,14 +36,14 @@ function App() {
         <div className="w-px h-24 bg-[#ccd6f6] ml-3 " />
       </div>
       <div className="fixed bottom-0 right-0 pb-3 ">
-        <div className="flex flex-col items-start space-y-2">
+        <div className="flex flex-col items-start space-y-2 pb-3">
           <a
             href=""
             className=" text-[#ccd6f6] hover:text-[#64ffda] text-sm tracking-wider transform rotate-90 hidden md:block"
           >
             Sannikhadijah@gmail.com
           </a>
-          <div className="w-px h-24 bg-[#ccd6f6]" />
+          
         </div>
       </div>
 

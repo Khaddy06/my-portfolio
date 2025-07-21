@@ -7,10 +7,10 @@ const Contact = () => {
       className="bg-[#0a192f] text-white py-20 px-6 md:px-16"
     >
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl text-[#64ffda] font-title mb-4 inline-block border-b-2 border-[#112240] pb-2">
+        <h2 className="text-3xl text-[#64ffda] font-title mb-4 inline-block border-b-2 border-[#112240] ">
           04. Contact
         </h2>
-        <p className="font-body text-[#ccd6f6] mb-8">
+        <p className="font-body text-[#ccd6f6] mb-8 text-base md:text-lg">
           I’m currently open to freelance projects, collaborations, or full-time
           roles. Feel free to reach out—whether it’s to talk shop, discuss a new
           idea, or just say hi!
