@@ -12,11 +12,13 @@ function Navbar() {
           <img src={logo} alt="Logo" className="w-15 h-15" />
 
           {/* Hamburger icon for small screens */}
-          <div
-            className="md:hidden text-[#64ffda] cursor-pointer text-2xl"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <CiMenuFries />
+          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#64ffda] md:hidden">
+            <div
+              className=" text-black cursor-pointer text-2xl"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <CiMenuFries />
+            </div>
           </div>
 
           {/* Desktop Nav */}

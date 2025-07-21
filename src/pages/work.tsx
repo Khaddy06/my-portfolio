@@ -96,10 +96,10 @@ function Work() {
   return (
     <div className="max-w-5xl mx-auto text-center">
       <div className="flex items-center gap-5">
-        <h2 className="text-3xl text-[#64ffda] font-title mb-6  pb-2">
+        <h2 className="md:text-3xl text-2xl text-[#64ffda] font-title mb-6  pb-2 ">
           03. Some Things I've Built
         </h2>
-        <p className="border border-b border-[#112240] w-sm  mb-6"></p>
+        <p className="border border-b border-[#112240] w-sm  mb-6 hidden md:block"></p>
       </div>
       <div className="bg-[#112240] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
         <p className="text-[#8892b0] mb-6 text-lg">
