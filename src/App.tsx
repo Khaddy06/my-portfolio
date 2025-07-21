@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="bg-[#0a192f] relative">
       <Navbar />
-      <div className="fixed bottom-0 left-5  pl-4 text-white">
+      <div className="fixed bottom-0 left-5  pl-4 text-white hidden md:block">
         {icons.map((icon, index) => (
           <div
             key={index}
@@ -39,7 +39,7 @@ function App() {
         <div className="flex flex-col items-start space-y-2">
           <a
             href=""
-            className=" text-[#ccd6f6] hover:text-[#64ffda] text-sm tracking-wider transform rotate-90"
+            className=" text-[#ccd6f6] hover:text-[#64ffda] text-sm tracking-wider transform rotate-90 hidden md:block"
           >
             Sannikhadijah@gmail.com
           </a>
