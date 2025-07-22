@@ -7,14 +7,14 @@ function Home() {
         className="w-full max-w-screen-xl px-6 lg:px-20 mx-auto pt-20
        md:pt-24  pb-16 md:pb-20"
       >
-        <h2 className="md:text-2xl text-xl font-bold text-[#64ffda]">
+        <h2 className="md:text-2xl text-lg font-bold text-[#64ffda]">
           Hi, my name is
         </h2>
-        <h1 className="md:text-7xl text-5xl font-bold text-[#ccd6f6]">Sanni Khadijah.</h1>
-        <h2 className="md:text-6xl text-5xl text-[#8892b0] mt-2 font-bold md:w-2xl">
+        <h1 className="md:text-7xl text-4xl font-bold text-[#ccd6f6]">Sanni Khadijah.</h1>
+        <h2 className="md:text-6xl text-3xl text-[#8892b0] mt-2 font-bold md:w-2xl">
           I build elegant websites & web apps.
         </h2>
-        <p className="text-[#ccd6f6] md:max-w-xl mt-4 md:text-xl text-base sm:text-center lg:text-left">
+        <p className="text-[#ccd6f6] md:max-w-xl mt-4 md:text-xl text-base text-center lg:text-left">
           I’m a front-end developer focused on crafting smooth, responsive, and
           accessible digital experiences — blending aesthetic with logic.
         </p>
