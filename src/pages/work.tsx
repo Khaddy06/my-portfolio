@@ -10,23 +10,12 @@ const Cards = [
       "A project that integrates Algolia Search with WordPress  Multisite, enhancing search functionality across multiple sites.",
     links: "Algolia Search, WordPress Multisite, PHP" ,
   },
-  {
-    title: "Building a Custom WordPress Theme",
-    description:
-      "A project that involves creating a custom WordPress theme from scratch, tailored to specific design and functionality requirements.",
-    links: "WordPress, PHP, HTML, CSS, JavaScript",
-  },
-  {
-    title: "Developing a RESTful API with Node.js",
-    description:
-      "A project that focuses on building a RESTful API using Node.js, enabling seamless communication between the front-end and back-end.",
-    links: "Node.js, Express, MongoDB",
-  },
+  
   {
     title: "Creating a Responsive Portfolio Website",
     description:
       "A project that showcases my skills and projects through a responsive portfolio website built with modern web technologies.",
-    links: "HTML, CSS, JavaScript, React",
+    links: "HTML, TailwidCSS, JavaScript, React",
   },
   {
     title: "Building a Custom WordPress Theme",
