@@ -30,7 +30,7 @@ function Navbar() {
                   className="hover:text-[#64ffda] transition duration-300"
                 >
                   <a href={`#${item.toLowerCase()}`}>
-                    <span className="text-[#64ffda] p-2">
+                    <span className="text-[#64ffda] text-base font-medium p-2">
                       {`0${index + 1}.`}
                     </span>
                     {item}
@@ -58,7 +58,7 @@ function Navbar() {
                   onClick={() => setIsOpen(false)} // close menu on link click
                 >
                   <a href={`#${item.toLowerCase()}`}>
-                    <span className="text-[#64ffda] p-2">
+                    <span className="text-[#64ffda] text-sm font-medium p-2">
                       {`0${index + 1}.`}
                     </span>
                     {item}

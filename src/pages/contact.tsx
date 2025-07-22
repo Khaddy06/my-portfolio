@@ -19,7 +19,9 @@ const Contact = () => {
         {/* Email & Socials */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
           <a
-            href="mailto:youremail@example.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=harameedey06@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-body border border-[#64ffda] px-6 py-2 rounded hover:shadow-[0_0_10px_#64ffda] transition duration-300"
           >
             ✉️ harameedey06@gmail.com
