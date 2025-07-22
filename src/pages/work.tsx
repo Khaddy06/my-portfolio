@@ -23,11 +23,11 @@ const Cards = [
       "A project that involves creating a custom WordPress theme from scratch, tailored to specific design and functionality requirements.",
     links: "WordPress, PHP, HTML, CSS, JavaScript",
   },
-  {
-    title: "Google Keep Clone",
-    description:"A simple Google Keep clone built with React and Firebase, allowing users to create, edit, and delete notes.",
-    links: "Vue, Firebase",
-  },
+  // {
+  //   title: "Google Keep Clone",
+  //   description:"A simple Google Keep clone built with React and Firebase, allowing users to create, edit, and delete notes.",
+  //   links: "Vue, Firebase",
+  // },
   
 ]
 const Cards2 = [
@@ -91,12 +91,13 @@ function Work() {
         <p className="border border-b border-[#112240] w-sm  mb-6 hidden md:block"></p>
       </div>
       <div className="bg-[#112240] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-        <p className="text-[#8892b0] mb-6 text-lg">
+        <p className="text-[#8892b0] mb-6 text-lg md:text-lg text-sm font-medium">
           Here are a few projects I've worked on recently. Each project
           showcases my skills and expertise in web development.
-          <br /> I am always eager to learn and explore new technologies, so
+          <p > I am always eager to learn and explore new technologies, so
           feel free to reach out if you have any questions or would like to
           collaborate on a project.
+          </p>
         </p>
         <CiFolderOn className="text-[#64ffda] text-2xl" />
       </div>
@@ -125,7 +126,7 @@ function Work() {
               <h3 className="md:text-xl text-base font-bold text-[#ccd6f6] hover:text-[#64ffda] mb-2">
                 {card.title}
               </h3>
-              <p className="text-[#8892b0] text-base  mb-4 font-semibold">
+              <p className="text-[#8892b0] md:text-base text-sm mb-4 font-semibold">
                 {card.description}
               </p>
             </div>
@@ -156,10 +157,10 @@ function Work() {
                   />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-[#ccd6f6] hover:text-[#64ffda] mb-2">
+              <h3 className="md:text-xl text-base font-bold text-[#ccd6f6] hover:text-[#64ffda] mb-2">
                 {card.title}
               </h3>
-              <p className="text-[#8892b0] mb-4 font-semibold">
+              <p className="text-[#8892b0] md:text-base text-sm mb-4 font-semibold">
                 {card.description}
               </p>
             </div>
