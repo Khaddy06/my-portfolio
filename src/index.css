@@ -1,4 +1,8 @@
-body{
-    padding:12px, 13px;
-    margin: 0, 6px
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
